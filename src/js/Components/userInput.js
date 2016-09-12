@@ -5,19 +5,18 @@ import FbSignInButton from './fbsigninButton';
 
 export default class UserInput extends React.Component{
 	render(){
-		const styleVar = {
-			color: '#fff'
-		}
 		return(
-			<div class="row center-align">
-				<div class="col l12 m12 s12">
+			<div class="UserInput">
+				<div class="row center-align">
 					<SignUpButton />					
 				</div>
-				<div class="col l12 m12 s12">
+				<div class="row center-align">
 					<FbSignInButton />
 				</div>
-					<div class="col l12 m12 s12">
-						<p style={styleVar}>Already have an account? Please <a href="#!">Sign In </a></p>
+					<div class="row center-align">
+						<div class="col l12 m12 s12">
+							<p class="signIn-Text">Already have an account? Please <a href="#!">Sign In </a></p>
+						</div>
 					</div>
 			</div>
 		);
