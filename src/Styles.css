@@ -38,3 +38,47 @@
 .UserInput{
 	margin-top: 100px;
 }
+.signUpButton {
+	width: 200px;
+	-webkit-box-flex: 1;
+	-webkit-flex: 1 1 auto;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	border: 2px solid #f7f7f7;
+	text-align: center;
+	margin: auto;
+	padding: 10px;
+	text-transform: uppercase;
+	position: relative;
+	overflow: hidden;
+	-webkit-transition: .3s;
+	transition: .3s;
+	color: #fff;
+}
+.signUpButton:after {
+  position: absolute;
+  -webkit-transition: .3s;
+  transition: .3s;
+  content: '';
+  width: 0;
+  left: 50%;
+  bottom: 0;
+  height: 3px;
+  background: #f7f7f7;
+}
+.signUpButton:hover {
+  cursor: pointer;
+}
+.signUpButton:hover:after {
+  width: 100%;
+  left: 0;
+}
+.fbLoginButton{
+	background-color: #3b5998;
+}
+.fbLoginButton:hover{
+	background-color: #6d84b4!important;
+}
+.signInButton{
+	color: #64ffda;
+}
