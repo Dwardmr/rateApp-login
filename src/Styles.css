@@ -8,10 +8,12 @@ body{
 .square{
 	width: 250px;
 	height: 250px;
-	color: blue;
-	background-color: blue;
 	text-align: center;
 	margin: auto;
+}
+.logoCont{
+	max-width: 100%;
+	max-height: 100%;
 }
 .txt-rotate{
 	text-decoration: underline;
