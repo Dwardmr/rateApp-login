@@ -7,9 +7,11 @@ export default class Layout extends React.Component {
 
 	render() {
 		return (
-			<div class="container">
-				<ElementsDisplay />
-				<UserInput />
+			<div class="imgBackground">
+				<div class="opacityLayer">
+					<ElementsDisplay />
+					<UserInput />
+				</div>
 			</div>
     	);
   	}
