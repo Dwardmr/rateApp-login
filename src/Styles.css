@@ -1,0 +1,27 @@
+.square{
+	width: 250;
+	height: 250px;
+	color: blue;
+	background-color: blue;
+}
+.txt-rotate{
+	text-decoration: underline;
+	font-weight: bold;
+}
+body{
+	background-image: url('../../img/Burj-Khalifa-Burj-Dubai-Pictures.jpg');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+}
+.layer{
+	background-color: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.logInText{
+	color: #fff;
+}
