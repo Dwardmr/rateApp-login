@@ -1,7 +1,6 @@
 import React from "react";
 
-import UserInput from './Components/userInput';
-import ElementsDisplay from './Components/elementsDisplay';
+import HomeComponents from './Components/homeComponents';
 
 export default class Layout extends React.Component {
 
@@ -9,8 +8,7 @@ export default class Layout extends React.Component {
 		return (
 			<div class="imgBackground">
 				<div class="opacityLayer">
-					<ElementsDisplay />
-					<UserInput />
+					<HomeComponents />
 				</div>
 			</div>
     	);

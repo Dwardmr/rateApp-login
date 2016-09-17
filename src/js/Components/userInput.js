@@ -13,11 +13,11 @@ export default class UserInput extends React.Component{
 				<div class="row center-align">
 					<FbSignInButton />
 				</div>
-					<div class="row center-align">
-						<div class="col l12 m12 s12">
-							<p class="signIn-Text">Already have an account? Please <a href="#!" class="signInButton">Sign In</a></p>
-						</div>
+				<div class="row center-align">
+					<div class="col l12 m12 s12">
+						<p class="signIn-Text">Already have an account? Please <a href="#!" class="signInButton">Sign In</a></p>
 					</div>
+				</div>
 			</div>
 		);
 	}
