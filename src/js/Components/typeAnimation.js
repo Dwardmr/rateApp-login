@@ -61,11 +61,12 @@ export default class TypeAnimation extends React.Component{
 
 	render(){
 		return(
-			    <span
-			    	ref="animationTarget"
-			      	class="txt-rotate"
-			      	data-period="2000"
-					data-rotate='[ "PEOPLE", "PRODUCTS", "MOVIES" ]'></span> 
+		    <span
+		    	ref="animationTarget"
+		      	class="txt-rotate"
+		      	data-period="2000"
+				data-rotate='[ "PEOPLE", "PRODUCTS", "MOVIES" ]'>
+			</span> 
 		);
 	}
 }
